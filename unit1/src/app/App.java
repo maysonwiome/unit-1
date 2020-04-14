@@ -2,24 +2,31 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        int count =0;
+        String color = "red";
+        boolean iLikeCats = false;
         
-        String person1 = "Mayson Wiome";
-        String person2 = "Zander Hasher";
-        String verb1 = "sleep";
-        String verb2 = "play";
-        String verb3 = "run";
-        String food = "toast";
-        String dayOfWeek = "friday";
-        String place1 = "home";
-        String place2 = "mcdonalds";
-        String adjective1 = "burnt";
-        String adjective2 = "great";
+        while (count <= 10) {
+            System.out.println("The count is " + count);
+            count = count + 1;
+        }
 
-        System.out.println(person1 + " " +"is a programmer who likes to" + " " + verb1);
-        System.out.println("every" + " " + dayOfWeek + " " + " they make a" + " " + adjective1);
-        System.out.println( food + " " + "for breakfast and" + " " + verb2 + " " + "at" + " " + place1);
-        System.out.println("with" + " " + person2 + " " + "Sometimes, they go to the" + " " + adjective2);
-        System.out.println(place2 + " " + "with" + " " + person2 + " " + "so that they can" + " " + verb3);
+            System.out.println("count finished");
+
+        while (color == "red") {
+        System.out.println("the color is" + color);
+        color = "green";
+        }
+        
+        System.out.println("color is finsished");
+
+        while (iLikeCats = false){
+        System.out.println("I like cats");
+        iLikeCats = true;
+        }
+
+        System.out.println(" cats are done");
+        
 
     }
 }

@@ -2,31 +2,40 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int count =0;
-        String color = "red";
-        boolean iLikeCats = false;
         
-        while (count <= 10) {
-            System.out.println("The count is " + count);
-            count = count + 1;
+        for (int i = 0; i<= 10; i = i + 1){
+            System.out.println("the count is" + i);
+            System.out.println("lets keep counting");
         }
 
-            System.out.println("count finished");
-
-        while (color == "red") {
-        System.out.println("the color is" + color);
-        color = "green";
-        }
-        
-        System.out.println("color is finsished");
-
-        while (iLikeCats = false){
-        System.out.println("I like cats");
-        iLikeCats = true;
+        for (int a = 10; a<=20; a = a + 1){
+            System.out.println("the count is" + a);
+            System.out.println("lets keep counting");
         }
 
-        System.out.println(" cats are done");
-        
+        for (int b = 10; b<=100; b = b + 1){
+            System.out.println("the count is" + b);
+            System.out.println("lets keep counting");
+        }
 
+        for (int c = 1000; c<=256000; c = c + 1000){
+            System.out.println("the count is" + c);
+            System.out.println("lets keep counting");
+        }
+
+        for (int d = 11; d<=12; d = d + 1){
+            System.out.println("the count is" + d);
+            System.out.println("lets keep counting");
+        }
+
+        for (int e = 10; e>=0; e = e - 1){
+            System.out.println("the count is" + e);
+            System.out.println("lets keep counting");
+        }
+
+
+
+    
+        
     }
 }

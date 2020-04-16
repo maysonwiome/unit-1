@@ -3,35 +3,29 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        for (int i = 0; i<= 10; i = i + 1){
+        for (int i = 22; i<=28; i = i + 3){
             System.out.println("the count is" + i);
-            System.out.println("lets keep counting");
         }
 
-        for (int a = 10; a<=20; a = a + 1){
+        for (int a = 2; a<=32; a = a * a){
             System.out.println("the count is" + a);
-            System.out.println("lets keep counting");
         }
-
-        for (int b = 10; b<=100; b = b + 1){
+        
+        for (int b = 3; b<-81; b = b * -b){
             System.out.println("the count is" + b);
-            System.out.println("lets keep counting");
         }
 
-        for (int c = 1000; c<=256000; c = c + 1000){
+        for (int c = 50; c >= 5; c = c - 5){
             System.out.println("the count is" + c);
-            System.out.println("lets keep counting");
         }
 
-        for (int d = 11; d<=12; d = d + 1){
+        System.out.println("1 4 1 4 5 2");
+        for (int d = 9; d >= 3; d = d - 3 ){
             System.out.println("the count is" + d);
-            System.out.println("lets keep counting");
         }
+        System.out.println("16 7 4 25 8 5 36 9 6 49 10 7 64 11 8 81 12 9");
 
-        for (int e = 10; e>=0; e = e - 1){
-            System.out.println("the count is" + e);
-            System.out.println("lets keep counting");
-        }
+       
 
 
 

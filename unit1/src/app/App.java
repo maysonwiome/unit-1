@@ -3,15 +3,15 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int i = 1; i <= 20; i++) {
-            if (i % 4 == 0) {
-                System.out.println(i + "is divisble by 4");
-            } else {
-                System.out.println(i + "is not divisible by 4");
-
-            }
+        for (int a = 0; a <=19; a = a + 1){
+            
+            System.out.println(a + "the count is");
         }
+        for (int b = -1; b <= 19; b = b +2){
+            System.out.println(b + "the count is also");
+        }
+            
 
-        System.out.println("All finished");
+      
     }
 }

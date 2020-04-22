@@ -3,14 +3,19 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int a = 0; a <=19; a = a + 1){
-            
-            System.out.println(a + "the count is");
+        for (int a = 20; a >= 0; a + -a) {
+            System.out.println(a);
+            if (a == 10) {
+                for( int j = 0; j < 5; j + -j){
+                    System.out.println(a);
+                }
+            }
         }
-        for (int b = -1; b <= 19; b = b +2){
-            System.out.println(b + "the count is also");
-        }
-            
+          System.out.println("first loop done");  
+
+          for ( int b = 4; b <= 36; b ++) {
+              System.out.println(b);
+          }
 
       
     }

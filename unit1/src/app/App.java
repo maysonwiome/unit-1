@@ -1,23 +1,25 @@
 package app;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int a = 1; a <= 10; a ++ ){
-            System.out.println(a);
-            if ( a == 5){
-                System.out.println("five");
-            }
-        }
-        System.out.println("first loop done");
+        Scanner input =  new Scanner(System.in);
 
-        for (int b = 100; b <= 200; b + 10){
-            System.out.println(b);
-            if (b == 150){
-                for (b = 150; b <= 159; b ++ ){
-                    System.out.println(b);
-                }
-            }
-        }
+        System.out.println("please enter your first name.");
+        String firstName = input.nextLine();
+        System.out.println("please enter your last name.");
+        String lastName = input.nextLine();
+        System.out.println("please enter your age.");
+        String age = input.nextLine();
+        System.out.println("please enter your grade.");
+        String grade = input.nextLine();
+        System.out.println("please enter your favorite color");
+        String favColor = input.nextLine();
+
+        System.out.println("hello" + firstName + lastName + age + grade + favColor);
+      
+
+
     }
 }

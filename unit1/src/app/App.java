@@ -6,20 +6,13 @@ public class App {
 
         Scanner input =  new Scanner(System.in);
 
-        System.out.println("please enter your first name.");
-        String firstName = input.nextLine();
-        System.out.println("please enter your last name.");
-        String lastName = input.nextLine();
-        System.out.println("please enter your age.");
-        String age = input.nextLine();
-        System.out.println("please enter your grade.");
-        String grade = input.nextLine();
-        System.out.println("please enter your favorite color");
-        String favColor = input.nextLine();
-
-        System.out.println("hello" + firstName + lastName + age + grade + favColor);
-      
-
+        System.out.println("please enter password.");
+        String correctPassword = input.nextLine();
+        System.out.println("thank you" + correctPassword);
+        System.out.println("please enter password");
+        String incorectPassword = input.nextline();
+        System.out.println("sorry" + incorectPassword);
+       
 
     }
 }

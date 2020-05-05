@@ -6,12 +6,18 @@ public class App {
 
         Scanner input =  new Scanner(System.in);
 
-        System.out.println("The count is");
-        String theCountIs7 = input.nextLine();
-        System.out.println("thank you" + theCountIs7);
-        System.out.println("the Count is");
-        String theCountIs1 = input.nextLine()
-        System.out.println("thank you" + theCountIs1)
+        System.out.println("How many inches are in a foot");
+        String inchesInAFoot = input.nextLine();
+        if (inchesInAFoot.equals(12));
+        System.out.println("correct");
 
+        System.out.println("Whats the capital");
+        String capitalOfMinnesota = input.nextLine();
+        if (capitalOfMinnesota.equals(12))
+        System.out.println("inncorect");
+
+        System.out.println("what year is it");
+        String year = input.nextLine();
+        System.out.println("correct");
     }
 }

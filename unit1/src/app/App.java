@@ -6,18 +6,21 @@ public class App {
 
         Scanner input =  new Scanner(System.in);
 
-        System.out.println("How many inches are in a foot");
-        String inchesInAFoot = input.nextLine();
-        if (inchesInAFoot.equals(12));
-        System.out.println("correct");
+        System.out.println("mr o liked to ");
+        String noun = input.nextLine();
+        System.out.println("mr o liked to" + noun);
 
-        System.out.println("Whats the capital");
-        String capitalOfMinnesota = input.nextLine();
-        if (capitalOfMinnesota.equals(12))
-        System.out.println("inncorect");
+        System.out.println("likes video games");
+        String name = input.nextLine();
+        System.out.println( name + "likes video games");
 
-        System.out.println("what year is it");
-        String year = input.nextLine();
-        System.out.println("correct");
+        System.out.println("people like to watch");
+        String tvShow = input.nextLine();
+        System.out.println("people like to watch" + tvShow);
+
+        System.out.println("my spanish teacher has a pet");
+        String animal = input.nextLine();
+        System.out.println("my spanish teacher has a pet" + animal);
+       
     }
 }

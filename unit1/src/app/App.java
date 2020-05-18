@@ -4,14 +4,22 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Scanner input =  new Scanner(System.in);
+      Dog dog1 = new Dog();
+      Dog dog2 = new Dog();
+      Dog dog3 = new Dog();
 
-        System.out.println("enter a number ");
-        String number = input.nextLine();
-        System.out.println( number);
-        System.out.println("enter another number");
-        String number2 = input.nextLine();
-        System.out.println(number + number2);
+      Scanner input = new Scanner(System.in);
+
+      dog1.name = "jerry"
+      dog1.breed = "Pitbull";
+      dog1.age = "2";
+
+      System.out.println(dog1.name);
+      System.out.println(dog1.breed);
+      System.out.println(dog1.age);
+
+
+
 
        
     }

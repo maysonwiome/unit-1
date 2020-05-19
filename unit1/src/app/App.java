@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
 
-      Dog dog1 = new Dog();
-      Dog dog2 = new Dog();
-      Dog dog3 = new Dog();
+      Game game1 = new Game();
+      Game game2 = new Game();
+      Gmae gmae3 = new Game();
 
       Scanner input = new Scanner(System.in);
 
-      dog1.name = "jerry"
-      dog1.breed = "Pitbull";
-      dog1.age = "2";
+      game1.name = "jerry"
+      game1.age = "Pitbull";
+      game.mainCharacter = "2";
 
       System.out.println(dog1.name);
       System.out.println(dog1.breed);

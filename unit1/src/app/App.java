@@ -1,26 +1,23 @@
 package app;
 import java.util.Scanner;
 
+
+
 public class App {
     public static void main(String[] args) throws Exception {
-
-      Game game1 = new Game();
-      Game game2 = new Game();
-      Gmae gmae3 = new Game();
-
-      Scanner input = new Scanner(System.in);
-
-      game1.name = "jerry"
-      game1.age = "Pitbull";
-      game.mainCharacter = "2";
-
-      System.out.println(dog1.name);
-      System.out.println(dog1.breed);
-      System.out.println(dog1.age);
-
-
-
-
+        System.out.println("whats your name");
+        String name = input.nextLine();
+        System.out.println("how much are you starting with");
+        String money = input.nextLine();
+        System.out.println("password please");
+        String password = input.nextLine();
+        System.out.println("account made please log in");
+        System.out.println("enter your name");
+        String name =input.nextLine();
+        System.out.println();
+        System.out.println("enter password");
+        String input.nextLine();
+        System.out.println("wellcome mr.o");
        
     }
 }
